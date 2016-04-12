@@ -20,6 +20,11 @@ class TodoInput extends Component {
     });
   }
 
+  handleSubmit(event) {
+    event.preventDefault()
+    console.log( 'submit button ')
+  }
+
   render() {
     return (
       <div>
@@ -29,7 +34,7 @@ class TodoInput extends Component {
           value={this.state.inputText}
           onChange={this.handleChange.bind(this)}
         />
-        <button>Submit</button>
+        <button onClick={this.handleSubmit.bind(this)}>Submit</button>
       </div>
     )
   }
