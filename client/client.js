@@ -1,6 +1,6 @@
 import React from 'react' // 等价于 var React = require('react')
 import { render } from 'react-dom' // 等价于 var render = require('react-dom').render
-import App from '../components/App'
+import App from '../components/app'
 import configureStore from '../redux/store'
 import { Provider } from 'react-redux'
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import TodoInput from './TodoInput';
-import TodoList from './TodoList';
+import TodoInput from './todoinput';
+import TodoList from './todolist';
 import { connect } from 'react-redux'
 
 class App extends Component {
