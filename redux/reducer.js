@@ -4,7 +4,7 @@ function getId(state) {
   }, -1) + 1
 }
 
-export default function reducer(state, action) {
+let reducer = function(state, action) {
   switch (action.type) {
     case 'ADD_TODO':
       return Object.assign({}, state, {
@@ -18,3 +18,5 @@ export default function reducer(state, action) {
       return state;
   }
 }
+
+export default reducer

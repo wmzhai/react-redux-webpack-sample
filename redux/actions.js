@@ -1,5 +1,5 @@
-export default actions = {
-  addTodo(text) {
+const actions = {
+  addTodo (text) {
     return {
       type: 'ADD_TODO',
       text: text
@@ -7,4 +7,4 @@ export default actions = {
   }
 }
 
-store.dispatch(addTodo('some text'));
+export default actions
