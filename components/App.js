@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import TextInput from './TextInput';
 
 class App extends Component {
   render() {
     return (
-      <div>这是一个支持热加载的ReactApp</div>
+      <div>
+        <h1>This is the App Component</h1>
+        <TextInput />
+      </div>
     )
   }
 }
