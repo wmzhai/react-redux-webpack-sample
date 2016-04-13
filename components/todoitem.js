@@ -4,7 +4,7 @@ class TodoItem extends Component {
   render() {
     return(
       <li>
-        <div>{this.props.text}</div>
+        <div>{this.props.todo.text}</div>
         <button>完成</button>
         <button>删除</button>
       </li>
