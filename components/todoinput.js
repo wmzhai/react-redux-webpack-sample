@@ -36,7 +36,7 @@ class TodoInput extends Component {
             value={this.state.inputText}
             onChange={this.handleChange.bind(this)}
           />
-          <input type="submit"   />
+          <input type="submit"/>
         </form>
       </div>
     )
